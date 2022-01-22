@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/rounded_corners">
+    <TextView
+        android:id="@+id/assetId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:textStyle="bold"
+        android:textSize="12dp"
+        android:layout_margin="10dp"
+        android:textColor="#FFBF00"/>
+    <TextView
+        android:id="@+id/assetName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/assetId"
+        android:textStyle="bold"
+        android:textSize="12dp"
+        android:layout_margin="10dp"
+        android:textColor="#FFBF00"/>
+    <TextView
+        android:id="@+id/assetSymbol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/assetName"
+        android:textStyle="bold"
+        android:textSize="12dp"
+        android:layout_margin="10dp"
+        android:textColor="#FFBF00"/>
+
+    <TextView
+        android:id="@+id/assetSlugName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/assetSymbol"
+        android:textStyle="bold"
+        android:textSize="12dp"
+        android:layout_margin="10dp"
+        android:textColor="#FFBF00"/>
+
+    <TextView
+        android:id="@+id/assetStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/assetSlugName"
+        android:textStyle="bold"
+        android:textSize="12dp"
+        android:layout_margin="10dp"
+        android:textColor="#FFBF00"/>
+
+    <TextView
+        android:id="@+id/assetType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/assetStatus"
+        android:textStyle="bold"
+        android:textSize="12dp"
+        android:layout_margin="10dp"
+        android:textColor="#FFBF00"/>
+
+    <TextView
+        android:id="@+id/assetUrl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/assetType"
+        android:textStyle="bold"
+        android:textSize="12dp"
+        android:layout_margin="10dp"
+        android:textColor="#FFBF00"/>
+
+    <ProgressBar
+        android:id="@+id/loadingAssetDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:indeterminateDrawable="@drawable/custom_progress"
+        android:visibility="gone" />
+</RelativeLayout>
